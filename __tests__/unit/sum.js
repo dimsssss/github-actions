@@ -1,7 +1,7 @@
 describe('', () => {
 	test('', () => {
-		expect(1 + 1 ).toBe(2);
-
+		const sum = require('../../api/sum.js');
+		expect(sum(1, 2)).toBe(3);
 	})
-
 })
+
