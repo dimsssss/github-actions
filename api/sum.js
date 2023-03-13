@@ -1,5 +1,5 @@
 function sum(a, b) {
-	if (typeof a !== number) {
+	if (typeof a !== 'number') {
 		return a;
 	}
 	return a + b;
